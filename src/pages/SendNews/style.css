@@ -1,0 +1,23 @@
+.title {
+    @apply text-center font-bold text-2xl p-5;
+}
+
+.send-input {
+    @apply w-full lg:w-1/2 md:grid grid-cols-10 mx-auto items-center;
+}
+
+.send-input > h3 {
+    @apply col-span-2;
+}
+
+.send-input > input {
+    @apply border border-gray-300 text-gray-900 text-sm rounded-lg focus:border-gray-900 block w-full p-4 col-span-8;
+}
+
+.send-form {
+    @apply mb-5 w-full flex flex-col gap-5;
+}
+
+.send-btn {
+    @apply btn bg-primary/75 hover:bg-primary text-white w-1/2 lg:w-1/4 mx-auto;
+}

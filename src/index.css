@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700&family=Heebo:wght@300;500;700&family=Inter:wght@100;300;500;700&family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @apply bg-background;
+}
+
+.styled-button {
+    @apply bg-button text-white hover:bg-buttonShadow shadow-full hover:shadow-disabled enabled:focus:rounded-none enabled:focus:bg-buttonShadow;
+}

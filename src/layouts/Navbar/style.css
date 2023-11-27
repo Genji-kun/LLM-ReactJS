@@ -1,0 +1,7 @@
+.navbar-menu {
+    @apply flex gap-5 px-1 font-bold;
+}
+
+.navbar-menu > li {
+    @apply px-4 py-2;
+}

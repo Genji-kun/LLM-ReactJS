@@ -1,0 +1,22 @@
+.select-title {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    @apply bg-gray-50 border border-gray-700 text-gray-900 block w-full p-4;
+}
+
+.arrow {
+    @apply absolute right-3 top-1/2 -translate-y-1/2;
+}
+
+.search-input {
+    @apply border border-gray-700 text-gray-900 focus:border-gray-900 block w-full p-[1rem];
+}
+
+.search-grid {
+    @apply grid lg:grid-cols-3 items-center gap-5 mx-2 md:mx-10;
+}
+
+.title {
+    @apply text-center font-bold text-2xl p-5;
+}
