@@ -1,5 +1,5 @@
 .login-title {
-    @apply text-center font-bold text-2xl p-5;
+    @apply text-center font-bold text-xl py-6 lg:py-12 lg:text-3xl;
 }
 
 .login-input {
@@ -10,14 +10,10 @@
     @apply col-span-2;
 }
 
-.login-input > input {
-    @apply border border-gray-300 text-gray-900 text-sm rounded-lg focus:border-gray-900 block w-full p-4 col-span-8;
-}
-
 .login-form {
-    @apply mb-5 w-full flex flex-col gap-5;
+    @apply px-5 border-dark border-2 mb-5 mx-auto flex flex-col gap-5 md:px-10 pb-12 bg-white shadow-4xl mt-12 lg:w-1/2;
 }
 
 .login-btn {
-    @apply btn bg-primary/75 hover:bg-primary text-white w-1/2 lg:w-1/4 mx-auto;
+    @apply border-dark border-[2px] px-4 py-2 bg-button text-white hover:bg-buttonShadow w-full md:w-1/4 md:mx-auto lg:w-1/2;
 }

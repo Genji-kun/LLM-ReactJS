@@ -5,11 +5,11 @@ import "./style.css";
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-background border-b-2 border-gray-200">
+        <div className="navbar bg-background border-b-2 border-dark">
             <div className="flex-1 ">
-                <Link to="/" className="flex items-center gap-2 lg:p-5">
-                    <FaInfinity size="25" />
-                    <h1 className="font-bold lg:text-xl">InfiniThree</h1>
+                <Link to="/" className="flex items-center gap-3 lg:p-5">
+                    <FaInfinity size="28" />
+                    <h1 className="font-bold lg:text-2xl">InfiniThree</h1>
                 </Link>
             </div>
             <div className="flex-none hidden lg:flex">
@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li><Link to="legal-dictionary">Bộ pháp điển</Link></li>
                     <li><Link>Diễn đàn</Link></li>
                     <li><Link to="/send-news">Gửi bài</Link></li>
-                    <li className="styled-button"><Link to="/sign-in">Đăng nhập</Link></li>
+                    <li><Link to="/sign-in"><div className="styled-button">Đăng nhập</div></Link></li>
                 </ul>
             </div>
             <div className="dropdown dropdown-bottom dropdown-end lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <li><Link to="legal-dictionary">Bộ pháp điển</Link></li>
                     <li><Link>Diễn đàn</Link></li>
                     <li><Link>Gửi bài</Link></li>
-                    <li className="styled-button"><Link to="/sign-in">Đăng nhập</Link></li>
+                    <li><Link to="/sign-in">Đăng nhập</Link></li>
                 </ul>
             </div>
         </div>

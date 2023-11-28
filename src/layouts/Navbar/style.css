@@ -1,5 +1,5 @@
 .navbar-menu {
-    @apply flex gap-5 px-1 font-bold;
+    @apply flex gap-5 px-1 font-bold items-center;
 }
 
 .navbar-menu > li {

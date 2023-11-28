@@ -11,8 +11,9 @@ function App() {
 
   return (
     <>
-      <div className="md:container mx-auto">
-        <BrowserRouter>
+
+      <BrowserRouter>
+        <div className="md:container mx-auto">
           <Navbar />
           <div className="bg-background min-h-screen">
             <Routes>
@@ -24,9 +25,10 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
-          <Footer />
-        </BrowserRouter>
-      </div>
+        </div>
+        <Footer />
+      </BrowserRouter >
+
 
     </>
   )

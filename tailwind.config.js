@@ -15,13 +15,15 @@ export default {
         background: "#f7f3ee",
         button: "#d13832",
         buttonShadow: "#b51b2d",
-        dark: "#483b34",
+        dark: "#1e3a46",
       },
     },
     boxShadow: {
-      'full': '0.25rem 0.25rem #483b34',
+      '3xl': '0.5rem 0.5rem #483b34',
+      '4xl': '0.75rem 0.75rem #483b34',
       'disabled': '0 0 #000',
-    }
+    },
+
   },
   plugins: [require("daisyui")],
   daisyui: {

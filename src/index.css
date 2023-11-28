@@ -16,5 +16,9 @@ body {
 }
 
 .styled-button {
-    @apply bg-button text-white hover:bg-buttonShadow shadow-full hover:shadow-disabled enabled:focus:rounded-none enabled:focus:bg-buttonShadow;
+    @apply border-dark border-[2px] px-4 py-2 bg-button text-white hover:bg-buttonShadow shadow-3xl hover:shadow-disabled enabled:focus:rounded-none enabled:focus:bg-buttonShadow;
+}
+
+.styled-input {
+    @apply border border-dark/75 text-gray-900 focus:border-dark block w-full p-3 col-span-8;
 }
