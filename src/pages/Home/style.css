@@ -1,0 +1,4 @@
+.view-now {
+    @apply w-fit my-10 font-bold flex justify-center items-center gap-2 text-lg;
+    font-family: "Montserrat", sans-serif;
+}

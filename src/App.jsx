@@ -11,11 +11,10 @@ function App() {
 
   return (
     <>
-
-      <BrowserRouter>
-        <div className="md:container mx-auto">
-          <Navbar />
-          <div className="bg-background min-h-screen">
+      <div className="background">
+        <BrowserRouter>
+          <div className="md:container mx-auto min-h-screen">
+            <Navbar />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="legal-dictionary" element={<Dictionary />} />
@@ -25,11 +24,9 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
-        </div>
-        <Footer />
-      </BrowserRouter >
-
-
+          <Footer />
+        </BrowserRouter >
+      </div>
     </>
   )
 }

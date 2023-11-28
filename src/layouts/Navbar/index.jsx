@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
-import { FaInfinity } from "react-icons/fa6";
+import logo from "../../assets/infinity.png";
 import "./style.css";
 
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-background border-b-2 border-dark">
-            <div className="flex-1 ">
+        <div className="navbar border-b-2 border-dark">
+            <div className="flex-1">
                 <Link to="/" className="flex items-center gap-3 lg:p-5">
-                    <FaInfinity size="28" />
-                    <h1 className="font-bold lg:text-2xl">InfiniThree</h1>
+                    <img src={logo} alt="logo" className="h-8 w-8" />
+                    <h1 className="font-extrabold lg:text-2xl">InfiniThree</h1>
                 </Link>
             </div>
             <div className="flex-none hidden lg:flex">
